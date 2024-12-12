@@ -1,14 +1,14 @@
-// Voting machine example, this is the main terminal. 
-// Accepts connections from multipe clients
-// Handles votes and send responses. 
+/* *********************************************************************************
+ * Author: tyreej@msoe.edu
+ * Last Edited: 12/11/2024
+ * Project: Voting Machine (Lab 13)
+ * Section: 121
+ * Provides: A server terminal that multiple client terminals can connect to.
+ * Collects votes from other terminals and also displays the result as votes
+ * are collected. 
+ * ********************************************************************************/
+ 
 
-
-// Stuff to fix: 
-// Fixed: 
-// Results are now displaying in the proper format
-// Test results by voting for multiple candidates
-// Test security feature where it only allows 1 vote per terminal. 
-// Could add a feature where it allows the client side to view who the candidates are, that way it's a little easier for them to spell it correctly. 
 
 
 #include <stdio.h>

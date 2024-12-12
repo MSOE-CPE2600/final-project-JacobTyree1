@@ -1,6 +1,12 @@
-// This is the client code to send votes to the voting machine. 
-// Connects to the server
-// Sends votes or request results
+/* *********************************************************************************
+ * Author: tyreej@msoe.edu
+ * Last Edited: 12/11/2024
+ * Project: Voting Machine (Lab 13)
+ * Section: 121
+ * Provides: A client terminal that connects to the server terminal through sockets. 
+ * Allows the user to vote for the candidate of their choosing.
+ * Security feature where users can only vote once per terminal. 
+ * ********************************************************************************/
 
 #include <stdio.h>
 #include <stdlib.h>
