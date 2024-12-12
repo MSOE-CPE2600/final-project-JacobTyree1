@@ -1,0 +1,23 @@
+# Ignore compiled binaries
+server
+client
+finalMain
+
+# Ignore object files
+*.o
+
+# Ignore temporary files created by editors
+*.swp
+*.swo
+*~
+*.bak
+
+# Ignore logs and debug files
+*.log
+
+# Ignore Makefile backups
+Makefile.bak
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
